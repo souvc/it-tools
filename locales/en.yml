@@ -392,3 +392,17 @@ tools:
   text-to-binary:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice-versa.
+
+  mysql-memo:
+    title: MySQL Cheat Sheet
+    description: Quick lookup for common MySQL commands and syntax.
+    searchPlaceholder: Search commands (e.g. SELECT, CREATE)...
+    cardDatabase: Database
+    cardTable: Table Operations
+    cardCrud: CRUD
+    cardLogic: Logic & Filters
+    cardAdmin: Admin & Users
+    cardStructure: Structure & Indexes
+    cardAdvanced: Advanced Objects (View/Proc)
+    cardBackup: Backup & Restore
+

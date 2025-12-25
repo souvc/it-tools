@@ -388,3 +388,17 @@ tools:
   text-to-binary:
     title: 文本到 ASCII 二进制
     description: 将文本转换为其 ASCII 二进制表示形式，反之亦然。
+
+  mysql-memo:
+    title: MySQL 备忘单
+    description: 快速查阅最常用的 MySQL 命令与语法。
+    searchPlaceholder:
+      搜索命令 (例如: SELECT, CREATE)...
+    cardDatabase: Database 数据库
+    cardTable: Table 表操作
+    cardCrud: CRUD 增删改查
+    cardLogic: Logic & Filters 逻辑与筛选
+    cardAdmin: Admin 用户与权限
+    cardStructure: Structure 结构与索引
+    cardAdvanced: Advanced 高级对象 (视图/过程)
+    cardBackup: Backup 备份与恢复
