@@ -406,3 +406,17 @@ tools:
     cardAdvanced: Advanced Objects (View/Proc)
     cardBackup: Backup & Restore
 
+  mybatis-log-converter:
+    title: MyBatis Log Converter
+    description: Convert MyBatis framework logs into executable SQL statements. Supports batch parsing and parameter filling.
+    inputLabel: Raw Logs
+    # 注意：这里外层改用了双引号 "..."
+    inputPlaceholder: "Paste MyBatis logs here...\nExample format:\n==>  Preparing: SELECT * FROM user WHERE id = ?\n==> Parameters: 123(Integer)"
+    outputLabel: Converted SQL
+    waitingInput: 'Waiting for input logs...'
+    autoConvert: Auto convert
+    convert: Convert SQL
+    loadExample: Load Example
+    clear: Clear
+    copy: Copy
+    error: Conversion failed

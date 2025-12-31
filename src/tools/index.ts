@@ -1,6 +1,7 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as mybatisLogConverter } from './mybatis-log-converter';
 import { tool as mysqlMemo } from './mysql-memo';
 import { tool as emailNormalizer } from './email-normalizer';
 
@@ -97,6 +98,7 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Converter',
     components: [
+      mybatisLogConverter,
       dateTimeConverter,
       baseConverter,
       romanNumeralConverter,

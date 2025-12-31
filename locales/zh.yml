@@ -402,3 +402,18 @@ tools:
     cardStructure: Structure 结构与索引
     cardAdvanced: Advanced 高级对象 (视图/过程)
     cardBackup: Backup 备份与恢复
+
+  mybatis-log-converter:
+    title: MyBatis 日志转换器
+    description: 将 MyBatis 框架的日志转换为可执行的 SQL 语句，支持批量解析和参数填充。
+    inputLabel: 原始日志
+    # 注意：这里外层改用了双引号 "..."，以避免内部单引号导致的 YAML 解析错误
+    inputPlaceholder: "请在此处粘贴 MyBatis 日志...\n示例格式：\n==>  Preparing: SELECT * FROM user WHERE id = ?\n==> Parameters: 123(Integer)"
+    outputLabel: 转换结果
+    waitingInput: '等待输入日志...'
+    autoConvert: 自动转换
+    convert: 转换 SQL
+    loadExample: 加载示例
+    clear: 清空
+    copy: 复制
+    error: 转换失败
